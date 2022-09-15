@@ -1,12 +1,4 @@
 
-Hook it up to CSS by including style.css in the <head> tag
-
-Then add CSS class names to your HTML to make it look like the lab pictures.
-For example: <div class="selector">
-
-You should not need to edit the CSS to do this, only the HTML.
-
-Don't forget to add an actual set of image descriptions to your image carousel.
 
 <!DOCTYPE html>
 <html lang="en">
@@ -22,8 +14,8 @@ Don't forget to add an actual set of image descriptions to your image carousel.
       <header class ="header"><h1>Paris's Labs for INST377</h1></header>
       <div class ="container">
         <div class ="left_section box">
-          <h3>Album Names</h3>
-          <ol>
+          <h2>Album Names</h2>
+          <ol class = "box">
             <li>Melanie Martinez - Crybaby</li>
             <li>Doja Cat - Planet Her</li>
             <li>Joji - Ballads 1</li>
@@ -32,12 +24,16 @@ Don't forget to add an actual set of image descriptions to your image carousel.
           </ol>
         </div>
         <div class = "right_section box">
-          <h3>Image Carousel</h3>
-          <grid img src="./images/mochi.gif" alt="A bouncing Mochi character." />
-          <grid img src="./images/mochi.jpg" alt="A Mochi character in a bubble." />
-          <grid img src="./images/mochi.png" alt="A still Mochi character." />
-          <grid img src="./images/mochi.svg" alt="A Mochi character with vector lines." />
+          <h2>Image Carousel</h2>
+          <div class = "grid">
+          <img src="./images/mochi.gif" alt="A bouncing Mochi character." />
+          <img src="./images/mochi.jpg" alt="A Mochi character in a bubble." />
+          <img src="./images/mochi.png" alt="A still Mochi character." />
+          <img src="./images/mochi.svg" alt="A Mochi character with vector lines." />
+          </div>
+          <div class = " box ">
           These are some very cute Mochis in four formats. They are in gif, jpg, png, and svg.
+          </div>
         </div>
         
       </div>
