@@ -9,7 +9,7 @@
 */
 
 html {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   font-size: 16px;
   min-width: 300px;
   overflow-x: hidden;
@@ -31,7 +31,7 @@ body {
   font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’, ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
   font-weight: 400;
   line-height: 1.5;
-  background-color: rgb(239, 239, 239);
+  background-color: rgb(181, 177, 178);
 }
 
 
@@ -40,14 +40,14 @@ a {
   text-decoration: none;
 }
 
-h2 {
+h2, h3 {
   margin:0;
   padding:0;
   padding-bottom:1.5rem;
 }
 
 form {
-  accent-color: hsla(120, 100%, 50%, 0.482);
+  accent-color: rgb(124, 128, 155);
 }
 
 /*
@@ -93,7 +93,7 @@ form {
   /* this will push other blocks out of the way */
 
   /* colors */
-  background-color: #ffe08a;
+  background-color: #a1cdf4;
   color: #4a4a4a;
 
   /* shapes */
@@ -118,7 +118,7 @@ form {
 */
 
 .box {
-  background-color: rgba(239, 239, 239, 0.40);
+  background-color: rgba(124, 128, 155);
   border: 2px dashed;
   border-radius: 4px;
 
@@ -129,18 +129,21 @@ form {
 }
 
 .left_section {
-  background-color: rgba(0, 139, 139, 0.8);
+  background-color: rgba(161, 205, 244);
   flex: 0 1 auto;
   margin: 1rem;
   padding: 1.5rem;
 }
 
 .right_section {
-  background-color: rgba(255, 224, 138, 0.7);
+  background-color: rgba(161, 205, 244);
   flex: 1 2 auto;
   margin: 1rem;
   align-items: center;
+  justify-content: center;
   max-width: 450px;
+  display: flex;
+  flex-direction: column;
 }
 
 /*
@@ -152,13 +155,13 @@ form {
 .footer {
   flex-shrink: 0;
   padding: 1rem;
-  background-color: rgba(0, 139, 139, 0.8);
+  background-color: rgba(161, 205, 244);
   font-size: 1.2rem;
   font-weight: 600;
 }
 
 .footer a {
-  color: rgba(255, 224, 138, 1);
+  color: rgba(169, 175, 209);
   text-decoration: underline;
 }
 
@@ -304,5 +307,8 @@ form label {
     /* check it out by using your developer tools to shrink your screen-size */
     .container {
       background-color: rgba(204, 8, 162, 0.65);
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 }

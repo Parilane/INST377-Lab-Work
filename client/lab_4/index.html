@@ -9,27 +9,41 @@
 
 <!-- This week doesn't have a script.js file in it, because you're focusing on HTML and CSS -->
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Paris' Labs for INST377</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="wrapper">
-        <header class="header">
-            <h1> Paris Lane INST 377 Labs</h1>
-        </header>
-        <div class="container">
-            <div class="left_section"></div>
-            <div class="right_section">
-                <h3>Local Restaurants</h3>
-                <div class="restaurant_list"> 
-                    A list of local restaurants
-                </div>
-            </div>
+      <header class="header">
+        <h1>Paris's Labs For INST 377 Labs</h1>
+      </header>
+      <div class="container">
+        <div class="left_section box">
+          <h3>Form Inputs</h3>
+          <form action="/api" class="box">
+            <label for="resto"></label>
+            <input type="text" name="resto" id="resto" />
+            <button type="submit">Submit</button>
+          </form>
         </div>
+        <div class="right_section box">
+          <h3>Local Restaurants</h3>
+          <div class="restaurant_list box">A list of local restaurants</div>
+        </div>
+      </div>
     </div>
-</body>
+    <footer class ="footer">
+        Parilane
+        <a
+          href="http://github.com/Parilane"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Parilane on Github</a
+        >
+      </footer>
+  </body>
 </html>
