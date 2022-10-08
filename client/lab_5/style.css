@@ -277,7 +277,11 @@
     background-color: goldenrod;
   }
   
-  
+  map {
+
+    display:none;
+
+  }
   
   /*
   Form Styles
