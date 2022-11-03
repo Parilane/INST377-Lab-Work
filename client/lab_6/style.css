@@ -96,7 +96,7 @@ form {
 .header h1 {
   display: block;
   /* this will push other blocks out of the way */
-
+  border-style: dashed;
   /* colors */
   background-color: #a1cdf4;
   color: #4a4a4a;
@@ -163,6 +163,7 @@ form {
   background-color: rgba(161, 205, 244);
   font-size: 1.2rem;
   font-weight: 600;
+  border-style: dashed;
 }
 
 .footer a {
@@ -330,6 +331,10 @@ form label {
     position: relative;
     width: 80px;
     height: 80px;
+  }
+
+  .lds-ellipsis_hidden {
+    display: hidden;
   }
   .lds-ellipsis div {
     position: absolute;
