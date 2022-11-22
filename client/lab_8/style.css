@@ -320,7 +320,7 @@
   }
   /* MAP STYLES*/
   
-  map {
+  #map {
   
     display: block;
     width: 400px;
